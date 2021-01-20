@@ -1,4 +1,4 @@
-# Laravel Nagad Payment Gateway Package [BD]
+# Nagad Payment Gateway Laravel Package [BD]
 
 # Installation
 
