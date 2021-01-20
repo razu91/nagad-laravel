@@ -1,0 +1,17 @@
+{
+    "name": "razu/nagad",
+    "description": "Laravel Nagad Payment Gateway Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Razu",
+        "email": "shahnaouzrazu21@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Razu\\Nagad\\": "src/"
+        }
+    }
+}
