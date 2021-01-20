@@ -13,5 +13,12 @@
         "psr-4": {
             "Razu\\Nagad\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Razu\\Nagad\\NagadServiceProvider"
+            ]
+        }
     }
 }
