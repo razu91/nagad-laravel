@@ -40,21 +40,20 @@ NAGAD_MODE=sandbox // sandbox or live
 NAGAD_PUBLIC_KEY="" //sandbox <optional>
 NAGAD_PRIVATE_KEY=""  // sandbox <optional>
 ```
+
 # Usage
 
 ## get callback url
 
 ```php
 <?php
-use NagadPayment;
+use NagadPaymentGateway;
 
-$redirectUrl = NagadPayment::tnxID($id)
+$redirectUrl = NagadPaymentGateway::tnxID($id)
              ->amount($amount)
              ->getRedirectUrl();
 return $redirectUrl;
 ```
-
-
 ## IPN (Instant Payment Notification) // verify payment
 
 ```php
