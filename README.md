@@ -3,7 +3,7 @@
 # Installation
 
 ```bash
-composer require razu1991/nagad-laravel
+composer require razu/nagad-laravel
 ```
 
 # Setup
@@ -18,7 +18,7 @@ php artisan vendor:publish --provider="Razu\Nagad\NagadServiceProvider" --tag=co
 
 - `config/nagad.php`
 
-````php
+```php
 <?php
 
 return [
@@ -29,6 +29,7 @@ return [
     'public_key' => env('NAGAD_PUBLIC_KEY',''),
     'private_key' => env('NAGAD_PRIVATE_KEY','')
 ];
+```
 
 # env setup
 
@@ -54,7 +55,8 @@ $redirectUrl = NagadPaymentGateway::tnxID($id)
              ->getRedirectUrl();
 return $redirectUrl;
 ```
-## IPN (Instant Payment Notification) // verify payment
+
+## ipn // verify payment
 
 ```php
 <?php
@@ -89,4 +91,3 @@ dd($verify);
 # Any query
 
 - shahnaouzrazu21@gmail.com
-````
