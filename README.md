@@ -3,7 +3,7 @@
 # Installation
 
 ```bash
-composer require razu/nagad-laravel
+composer require razu/nagad
 ```
 
 # Setup
