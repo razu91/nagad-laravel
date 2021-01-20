@@ -46,14 +46,14 @@ NAGAD_PRIVATE_KEY=""  // sandbox <optional>
 
 ```php
 <?php
-use NagadPaymentGateway;
+use NagadPayment;
 
-$redirectUrl = NagadPaymentGateway::tnxID($id)
+$redirectUrl = NagadPayment::tnxID($id)
              ->amount($amount)
              ->getRedirectUrl();
 return $redirectUrl;
 ```
-````
+
 
 ## IPN (Instant Payment Notification) // verify payment
 
@@ -90,3 +90,4 @@ dd($verify);
 # Any query
 
 - shahnaouzrazu21@gmail.com
+````
