@@ -88,6 +88,11 @@ dd($verify);
 - Need a merchant account (live server)
 - Contact with Nagad and provide your live server ip address.
 
-# Any query
+### Related Link
+
+<a href="https://packagist.org/packages/razu/nagad">https://packagist.org/packages/razu/nagad</a>
+
+### Any query
 
 - shahnaouzrazu21@gmail.com
+
