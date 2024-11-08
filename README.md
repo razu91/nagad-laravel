@@ -94,5 +94,5 @@ dd($verify);
 
 ### Any query
 
-- shahnaouzrazu21@gmail.com
+shahnaouzrazu21@gmail.com
 
